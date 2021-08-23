@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabecalho h1{
+    text-indent: -900px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(../assets/fundo.png) repeat-x top;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+/*-------------------------------Inicio Cabecalho--------------------------*/
+#cabecalho{
+    height: 150px;
+    background: url(../assets/detalhe-topo.png) no-repeat right top;
+    padding-top: 15px;
+}
+
+#logo{
+    background: url('../assets/logo.png') no-repeat;
+    width: 152px;
+    height: 66px;
+}
+
+ul#nav{
+    margin-top: 40px;
+    background: #b10333;
+    float: left;
+}
+
+#nav li{
+    float: left;
+    justify-content: center;
+}
+
+#nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 1.9em;
+    background: url('../assets/divisor.png') no-repeat left center;
+}
+
+#nav .primeiro a{
+    background: none;
+}
+
+#nav li a:hover{
+    font-weight: bold;
+    color: black;
+    background: #c9033bf6;
+}
+
+body#home #nav .check a,
+body#brasil #nav .check a,
+body#internacional #nav .check a,
+body#economia #nav .check a,
+body#saude #nav .check a,
+body#ciencia #nav .check a,
+body#fotos #nav .check a{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}/*-------------------------------FIM CABECALHO----------------------------*/
+
+/*------------------------------INICIO CONTEUDO 3 COLUNAS----------------------------*/
+#conteudo{
+    margin: 100px 0;
+    text-align: center;
+    width: 800px;
+}
+
+#conteudo h1{
+    width: 200px;
+    color: #fff;
+    font-size: 1.6em;
+    background: #294c71;
+    padding: 7px;
+    margin: auto;
+    text-align: left;
+}
+
+#centro{
+    width: 290px;
+    margin: 0 20px 0 155px;
+    background: url(../assets/fundo-caixa.png);
+    float: left;
+    padding: 5px;
+    text-align: left;
+}
+
+#conteudo #centro h1,
+#conteudo #ladDir h1{
+    width: 270px;
+    padding: 7px;
+}
+
+#centro h3.subtitulo,
+#centro-duas h3.subtitulo,
+#centro-uma h3.subtitulo{
+    text-transform: uppercase;
+    background:#b10333;
+    font-size: 1em;
+    padding: 2px;
+}
+
+#centro p,
+#ladDir p{
+    text-align: left;
+    font-size:0.9em;
+}
+
+#centro a{
+    text-decoration: underline;
+    color: #b10333;
+}
+
+#centro h1.subpost{
+    margin-top: 8px;
+}
+
+.fundo-caixa{
+    margin-top: 6px;
+    padding: 20px;
+    background: #fff;
+    text-align: left;
+}
+.fundo-caixa a{
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+.clear{
+    clear: both;
+}
+
+.imagem{
+    width: 250px;
+    margin-top: 5px;
+    border: 0.4px solid gray;
+}/*------------------------------FIM CONTEUDO 3 COLUNAS-------------------------------*/
+
+/*INICIO ESTILO LADO ESQUERDO*/
+#ladEsq{
+    width: 220px;
+    margin:0 0px 0 -600px;
+    background: url(../assets/fundo-caixa.png);
+    padding: 5px;
+    float: left;
+}
+
+#ladEsq .fundo-caixa a:hover,
+#ladEsq-duas .fundo-caixa a:hover{
+    background: url('../assets/marcador.png') no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}/*FIM ESTILO LADO ESQUERDO*/
+
+
+/*INICIO ESTILO LADO DIREITO*/
+#ladDir h3.subtitulo{
+    text-transform: uppercase;
+    background: #b10333;
+    color: #fff;
+    font-size: 1em;
+    padding: 2px;
+}
+
+/*INICO ESTILO RODAPÉ*/
+#rodape{
+    background: #294c71;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    margin-top: 800px;
+    clear: both;    
+}/*FIM ESTILO RODAPÉ*/
+
+#ladDir h1.subpost{
+    margin-top: 7px;
+    width: 230px;
+}
+
+#ladDir a{
+    text-decoration: underline;
+    color: #b10333;
+}
+
+#ladDir{
+    margin-left: 30px;
+    width: 280px;
+    background: url(../assets/fundo-caixa.png);
+    float: left;
+    padding: 5px;
+    text-align: left;
+}/*FIM ESTILO LADO DIREITO*/
+
+/* INICIO SUB POST */
+.lista-noticias{
+    list-style: none;
+    text-decoration: none;
+}
+
+.lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 90px;
+}
+
+#centro .lista-noticias img,
+#ladDir .lista-noticias img{
+    width: 70px;
+}
+
+#centro .lista-noticias a img,
+#ladDir .lista-noticias a img,
+#centro-duas .lista-noticias a img,
+#centro-uma .lista-noticias a img{    
+    float: left;
+    margin: 5px;
+}
+
+#centro .lista-noticias a,
+#ladDir .lista-noticias a,
+#centro-duas .lista-noticias a,
+#centro-uma .lista-noticias a{
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#centro .lista-noticias a p,
+#ladDir .lista-noticias a p{
+    font-size: 0.7em;
+    color: black;
+}
+
+#centro .lista-noticias li:hover,
+#ladDir .lista-noticias li:hover,
+#centro-duas .lista-noticias li:hover,
+#centro-uma .lista-noticias li:hover{
+    background: #eee;
+    cursor: pointer;
+}
+
+#centro .lista-noticias a h3,
+#ladDir .lista-noticias a h3,
+#centro-duas .lista-noticias a h3,
+#centro-uma .lista-noticias a h3{
+    font-size: 1em;
+    margin-bottom:5px;
+    color: #3e7ab9;
+}/*FIM SUBPOST*/
+
+/*INICIO CONTEUDO 2 COLUNAS*/
+
+#centro-duas{
+    width: 580px;
+    margin: 0;
+    background: url(../assets/fundo-caixa.png);
+    float: right;
+    padding: 5px;
+    text-align: left;
+}
+
+#centro-duas h1{
+    width: 550px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#ladEsq-duas{
+    width: 220px;
+    margin:0 20px 0 -40px;
+    background: url(../assets/fundo-caixa.png);
+    padding: 5px;
+    float: left;
+}
+
+#centro-duas .imagem{
+    width: 540px;
+    margin-top: 5px;
+    border: 0.4px solid gray;
+}
+
+#centro-duas .lista-noticias img,
+#centro-uma .lista-noticias img{
+    width: 80px;
+}
+
+#centro-duas .lista-noticias a p,
+#centro-uma .lista-noticias a p{
+    font-size: 1em;
+    color: black;
+}
+
+#centro-duas .lista-noticias a h3,
+#centro-uma .lista-noticias a h3{
+    font-size: 1.3em;
+}/*FIM CONTEUDO 2 COLUNAS*/
+
+/*INICIO CONTEUDO 1 COLUNA*/
+#centro-uma{
+    width: 800px;
+    margin: 0;
+    background: url(../assets/fundo-caixa.png);
+    float: left;
+    padding: 5px;
+    text-align: left;
+}
+
+#centro-uma h1{
+    width: 780px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#centro-uma .imagem{
+    width: 750px;
+    margin-top: 5px;
+    border: 0.4px solid gray;
+}/*FIM CONTEUDO 1 COLUNA*/
